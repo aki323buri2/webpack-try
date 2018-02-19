@@ -1,0 +1,41 @@
+{
+  "name": "datepicker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "redux": "*",
+    "redux-logger": "*",
+    "redux-saga": "*",
+    "lodash": "*"
+  },
+  "devDependencies": {
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1",
+    "style-loader": "*",
+    "css-loader": "*",
+    "sass-loader": "*",
+    "postcss-loader": "*",
+    "node-sass": "*",
+    "uglifyjs-webpack-plugin": "*",
+    "clean-webpack-plugin": "*",
+    "html-webpack-plugin": "*",
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*",
+    "babel-plugin-transform-class-properties": "*",
+    "babel-plugin-transform-decorators-legacy": "*",
+    "extract-text-webpack-plugin": "*"
+  }
+}
